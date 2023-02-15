@@ -1,6 +1,6 @@
 Description :
 =============
-I just shared my works, which I worked as learning path and practiced some C programming such as Single elevator's car cabin controller.
+I just shared my works, which I worked as learning path and practiced some C programming such as using CLI to implementation of Single elevator's car cabin controller.
 
 Purpose :
 =========
