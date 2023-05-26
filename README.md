@@ -1,6 +1,9 @@
 Description :
 =============
-I,  K.M. Arun Kumar alias Arunkumar Murugeswaran, just shared my works, which I worked as learning path and practiced some C programming such as using CLI to build  Single elevator's car cabin controller.
+I,  K.M. Arun Kumar alias Arunkumar Murugeswaran, just shared my works, which I worked as learning path and practiced some C programming such as using CLI to build  Single elevator's car cabin controller. Elevator control is based on two basic principles.
+  1: Continue to travel in the current elevator movement direction(up or down) while there are still remaining requests in that same elevator movement direction.
+  2: If there are no further requests in that direction, then stop and become idle, or change direction if there are requests in the opposite direction.
+  elevator's in cabin floor call for each floor and only one hall floor call for each floor are considered. So when either in cabin floor call or hall floor call is active, then floor call for that floor is active and simulate, floor call as request for that floor and implemented elevator control principles.
 
 Purpose :
 =========
@@ -12,7 +15,7 @@ I thank to my family, Friends, Teachers, People behind the toolchains and refere
 
 Toolchains that I used for C Application design and development are as follows :
 ================================================================================
-1: IDE or Compiler used - Dev-C++/ Turbo C++/ CodeBlocks with GNU GCC Compiler.
+1: IDE or Compiler used - CodeBlocks with GNU GCC Compiler.
 2: Desktop Computer Architecture and OS for C Programming - Intel X64 & Windows 8.1 (64 bit). 
 3: Code editor - Notepad++. 
 4: Documentation - Microsoft Office 2007 (alternative LibreOffice) and Text Editor. 
